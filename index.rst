@@ -17,6 +17,12 @@ Moduler / Arv
    delegering.rst
 
 
+
+Note
+
+Look for restructured text!
+
+
 =========================
 Sökrutan
 =========================
