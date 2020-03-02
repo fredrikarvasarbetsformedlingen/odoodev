@@ -41,6 +41,11 @@ This is a simple example::
 
 
 
+.. toctree::
+    :glob:
+
+    Chapter1 description <chapter1>
+
 
 =========================
 Sökrutan
