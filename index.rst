@@ -18,9 +18,7 @@ Moduler / Arv
 
 
 
-Note
-
-Look for restructured text!
+.. note:: Look for restructured text!
 
 
 =========================
