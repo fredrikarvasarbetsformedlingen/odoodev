@@ -110,5 +110,7 @@ Filter
 
    filter.rst
 
-
+.. toctree::
+   :maxdepth: 1
+   
    group_by.rst
