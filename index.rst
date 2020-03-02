@@ -28,6 +28,12 @@ Bestrivning av Restructured Text
 https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
 
 
+.. code-block:: html
+    :linenos:
+
+    <h1>code block example</h1>
+
+
 =========================
 Sökrutan
 =========================
