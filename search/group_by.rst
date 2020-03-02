@@ -1,5 +1,5 @@
 ============
-Sökrutan
+Gruppera
 ============
 
 * Etiketter för gjorda val (filter/gruppering/favorit)
