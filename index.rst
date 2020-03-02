@@ -34,6 +34,14 @@ https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
     <h1>code block example</h1>
 
 
+This is a simple example::
+
+    import math
+    print 'import done'
+
+
+
+
 =========================
 Sökrutan
 =========================
