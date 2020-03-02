@@ -34,7 +34,43 @@ Vyer
    kalender.rst
 
 
+=========================
+Chatter
+=========================
+.. toctree::
+   :maxdepth: 1
 
+   chatter.rst
 
+=========================
+Aktivitet
+=========================
+.. toctree::
+   :maxdepth: 1
 
+   aktivitet.rst
 
+=========================
+Meny
+=========================
+.. toctree::
+   :maxdepth: 1
+
+   meny.rst
+
+=========================
+Widgets
+=========================
+.. toctree::
+   :maxdepth: 1
+
+   widgets.rst
+   many2many_tags.rst
+
+=========================
+Datakatalog
+=========================
+.. toctree::
+   :maxdepth: 1
+
+   datakatalog.rst
