@@ -110,10 +110,5 @@ Filter
 
    filter.rst
 
-=========================
-Gruppering
-=========================
-.. toctree::
-   :maxdepth: 1
 
-   group_by.rst
+group_by.rst
