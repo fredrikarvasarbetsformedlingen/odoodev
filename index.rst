@@ -69,11 +69,9 @@ Header 1.2
 Sökrutan
 =========================
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   search.rst
-   filter.rst
-   gruppering.rst
+   search/index.rst
 
 
 =========================
