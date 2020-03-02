@@ -20,6 +20,8 @@ Moduler / Arv
 
 .. note:: Look for restructured text!
 
+.. image:: screens/screens.jpg
+
 
 =========================
 Sökrutan
