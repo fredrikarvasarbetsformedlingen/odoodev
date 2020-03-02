@@ -95,16 +95,13 @@ Första field name är standardsökningen::
 
 
 =========================
-Fritextsökning
+Söktyper
 =========================
 .. toctree::
    :maxdepth: 1
 
    freetext.rst
 
-=========================
-Filter
-=========================
 .. toctree::
    :maxdepth: 1
 
