@@ -46,14 +46,23 @@ This is a simple example::
 
     Chapter1 description <chapter1>
 
+========
+Header 1
+========
 
+Header 1.1
+==========
 
-.. sidebar:: Sidebar Title
-    :subtitle: Optional Sidebar Subtitle
+some text
 
-    Subsequent indented lines comprise
-    the body of the sidebar, and are
-    interpreted as body elements.
+Header 1.1.1
+------------
+
+some more text
+
+Header 1.2
+==========
+
 
 
 =========================
