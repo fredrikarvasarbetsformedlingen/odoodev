@@ -94,8 +94,26 @@ Första field name är standardsökningen::
                     <separator/>
 
 
-.. image:: Markering_825.png
+=========================
+Fritextsökning
+=========================
+.. toctree::
+   :maxdepth: 1
 
-.. image:: Markering_826.png
+   freetext.rst
 
-.. image:: Markering_830.png
+=========================
+Filter
+=========================
+.. toctree::
+   :maxdepth: 1
+
+   filter.rst
+
+=========================
+Gruppering
+=========================
+.. toctree::
+   :maxdepth: 1
+
+   group_by.rst
