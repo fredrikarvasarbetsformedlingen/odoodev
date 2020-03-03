@@ -2,12 +2,11 @@
 Grafik
 ============
 
-* Etiketter för gjorda val (filter/gruppering/favorit)
-* Använd förstoringsglaset för att se extra funktioner
+* Urval, grupperingar, värden dynamiskt valbara
+* Lägg på anslagstavla
 
 
-.. image:: Markering_823.png
-
+.. image:: Markering_846.png
 
 
 kod för sökrutan::
@@ -24,14 +23,3 @@ kod för sökrutan::
         </record>
 
 
-.. image:: Markering_824.png
-
-Första field name är standardsökningen::
-
-    <field name="name" string="Opportunity" 
-       filter_domain="['|','|','|',
-            ('partner_id','ilike',self),
-            ('partner_name','ilike',self),('email_from','ilike',self),
-            ('name', 'ilike', self)]"/>
-            
-            
