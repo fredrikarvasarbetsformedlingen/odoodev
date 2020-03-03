@@ -36,6 +36,11 @@ Vyer
    :maxdepth: 1
    
    graph.rst
+   
+.. toctree::
+   :maxdepth: 1
+   
+   form.rst
 
 .. toctree::
    :maxdepth: 1
