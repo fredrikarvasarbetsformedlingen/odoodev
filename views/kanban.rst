@@ -7,7 +7,7 @@ I Kanban fokusera man på att avsluta uppgifter inte inleda dem. Kanban kännete
 
 .. image:: Markering_833.png
 
-Kanban-strukturen:::
+Kanban-strukturen::
     <kanban>
            Lista ingående fält         
            <field name="priority"/>
@@ -19,7 +19,7 @@ Kanban-strukturen:::
                     <templates>
                            Beskrivning av lappen
                     </templates>
-                </kanban>
+   </kanban>
 
 
 1) Kanban-record::
@@ -30,7 +30,6 @@ Kanban-strukturen:::
          quick_create_view="crm.quick_create_opportunity_form" 
          archivable="false">
 
-
 2) Progressbar::
 
      <progressbar field="activity_state" 
@@ -39,20 +38,20 @@ Kanban-strukturen:::
          help="This bar allows to filter the opportunities based on scheduled activities."/>
  
 3) Lappen::
-                  <templates>
-                        <t t-name="kanban-box">
-                            <div t-attf-class="#{kanban_color(record.color.raw_value)} oe_kanban_global_click">
-                                <div class="o_dropdown_kanban dropdown"/>  Meny
-                            </div>                            
-                            <div class="oe_kanban_content">
-                                     Innehåll
-                                    <div class="o_kanban_record_bottom">
-                                        <div class="oe_kanban_bottom_left" />
-                                        <div class="oe_kanban_bottom_right" />
-                                    </div>
-                            </div>
-                        </t>
-                    </templates>
+     <templates>
+            <t t-name="kanban-box">
+                <div t-attf-class="#{kanban_color(record.color.raw_value)} oe_kanban_global_click">
+                    <div class="o_dropdown_kanban dropdown"/>  Meny
+                </div>                            
+                <div class="oe_kanban_content">
+                         Innehåll
+                        <div class="o_kanban_record_bottom">
+                            <div class="oe_kanban_bottom_left" />
+                            <div class="oe_kanban_bottom_right" />
+                        </div>
+                </div>
+            </t>
+        </templates>
 
 
 Hela kanban-koden::
