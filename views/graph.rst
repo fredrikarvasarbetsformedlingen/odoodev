@@ -9,7 +9,7 @@ Diagram
 .. image:: Markering_846.png
 
 
-kod för sökrutan::
+kod för vyn::
 
         <record id="crm_lead_view_graph" model="ir.ui.view">
             <field name="name">crm.lead.view.graph</field>
