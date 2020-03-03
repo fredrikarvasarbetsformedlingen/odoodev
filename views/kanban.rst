@@ -79,6 +79,7 @@ Första field name är standardsökningen::
             
             
 Övriga field name är::            
+                    
                     <field name="tag_ids" string="Tag" filter_domain="[('tag_ids', 'ilike', self)]"/>
                     <field name="stage_id" domain="[]"/>
                     <field name="user_id"/>
@@ -94,20 +95,4 @@ Första field name är standardsökningen::
                     <separator/>
 
 
-=========================
-Söktyper
-=========================
-.. toctree::
-   :maxdepth: 1
 
-   freetext.rst
-
-.. toctree::
-   :maxdepth: 1
-
-   filter.rst
-
-.. toctree::
-   :maxdepth: 1
-   
-   group_by.rst
