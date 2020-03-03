@@ -2,11 +2,11 @@
 Aktiviteter
 ============
 
-* Etiketter för gjorda val (filter/gruppering/favorit)
+* Listar aktiviteter, aktivitetstyp och dess status
 * Använd förstoringsglaset för att se extra funktioner
 
 
-.. image:: Markering_823.png
+.. image:: Markering_843.png
 
 
 
