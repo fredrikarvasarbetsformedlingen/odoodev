@@ -74,16 +74,14 @@ Sökrutan
    search/index.rst
 
 
+
 =========================
 Vyer
 =========================
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   listvy.rst
-   form.rst
-   kanban.rst
-   kalender.rst
+   views/index.rst
 
 
 =========================
