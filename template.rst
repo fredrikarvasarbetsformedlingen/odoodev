@@ -11,10 +11,6 @@ Live Coding: Documentation w/ ReadTheDocs.org (RTFD)
 https://www.youtube.com/watch?v=UFYPLhhIDSg
 
 
-
-
-* * * * * * * * * * * * * * * * * * * * *
-
 Innehållsförteckning.
 
 
