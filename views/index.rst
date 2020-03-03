@@ -2,12 +2,13 @@
 Vyer
 ============
 
-* Etiketter för gjorda val (filter/gruppering/favorit)
-* Använd förstoringsglaset för att se extra funktioner
+* Vyer är deklarerade i XML
+* Arv implementeras med xpath (eller förenklad syntax)
+* En vy startas via en action-record
+
 
 
 .. image:: Markering_833.png
-
 
 
 
