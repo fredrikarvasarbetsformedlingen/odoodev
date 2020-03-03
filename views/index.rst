@@ -2,6 +2,7 @@
 Vyer
 ============
 
+.. toctree:: viewxml.rst
 * Vyer är deklarerade i XML
 * Arv implementeras med xpath (eller förenklad syntax)
 * En vy startas via en action-record
