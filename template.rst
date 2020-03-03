@@ -39,7 +39,27 @@ Moduler / Arv
 
 
 
-.. note:: Den båa rutan. Look for restructured text!
+.. note:: Colored boxes: note, seealso, todo and warnings
+
+.. seealso:: Colored boxes: note, seealso, todo and warnings
+
+.. todo:: Colored boxes: note, seealso, todo and warnings
+
+.. warnings:: Colored boxes: note, seealso, todo and warnings
+
+.. topic:: Your Topic Title
+
+    Subsequent indented lines comprise
+    the body of the topic, and are
+    interpreted as body elements.
+
+.. sidebar:: Sidebar Title
+    :subtitle: Optional Sidebar Subtitle
+
+    Subsequent indented lines comprise
+    the body of the sidebar, and are
+    interpreted as body elements.
+
 
 .. image:: screens/screens.jpg
 
