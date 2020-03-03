@@ -33,6 +33,9 @@ Vyer
    :maxdepth: 2
 
    views/index.rst
+   views/calendar.rst
+   views/form.rst
+   views/graph.rst
 
 
 =========================
@@ -49,7 +52,7 @@ Aktivitet
 .. toctree::
    :maxdepth: 1
 
-   aktivitet.rst
+   views/activity.rst
 
 =========================
 Meny
