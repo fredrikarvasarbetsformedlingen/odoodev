@@ -1,5 +1,5 @@
 ============
-Grafik
+Diagram
 ============
 
 * Urval, grupperingar, värden dynamiskt valbara
