@@ -25,12 +25,12 @@ Ett utbildningsmaterial för Odoo 12.
 .. toctree::
    :maxdepth: 2
 
-   modules/index.rst1
+   modules/index.rst
 
 .. toctree::
    :maxdepth: 2
 
-   search/index.rst1
+   search/index.rst
 
 .. toctree::
    :maxdepth: 2
