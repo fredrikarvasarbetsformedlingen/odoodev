@@ -7,6 +7,17 @@ Vyer startas med en action
 .. image:: Markering_845.png
 
 
+__1) Extern ID__
+
+.. sidebar:: Action
+    :subtitle: Viktiga egenskaper
+    1) External ID (modul.id-sträng)
+    2) Målfönster (aktuellt / 
+    3) Vymoder (kanban,tree xxx)
+    4) External ID sökvy
+    5) Domän, urval av objekt
+    6) Kontext sessionsdata, default_type Type i sökrutan 
+    
 
 kod för action::
 
