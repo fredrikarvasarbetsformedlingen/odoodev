@@ -94,9 +94,6 @@ Första field name är standardsökningen::
                     <separator/>
 
 
-=========================
-Söktyper
-=========================
 .. toctree::
    :maxdepth: 1
 
