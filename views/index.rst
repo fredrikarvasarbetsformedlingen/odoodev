@@ -6,7 +6,7 @@ Vyer
 * Arv implementeras med xpath (eller förenklad syntax)
 * En vy startas via en action-record
 
-
+https://medium.com/@reedrehg/clicking-everywhere-in-odoo-c659e9c6f09b
 
 .. image:: Markering_833.png
 
