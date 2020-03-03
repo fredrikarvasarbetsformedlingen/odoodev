@@ -2,11 +2,11 @@
 Pivot
 ============
 
-* Etiketter för gjorda val (filter/gruppering/favorit)
-* Använd förstoringsglaset för att se extra funktioner
+* Pivottabell (BI kub)
+* Underlag vyer på anslagstavla
 
 
-.. image:: Markering_823.png
+.. image:: Markering_848.png
 
 
 
