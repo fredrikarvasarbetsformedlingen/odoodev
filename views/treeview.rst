@@ -67,7 +67,7 @@ kod för sökrutan::
 
 
 
-.. image:: Markering_824.png
+.. image:: Markering_834.png
 
 Första field name är standardsökningen::
 
