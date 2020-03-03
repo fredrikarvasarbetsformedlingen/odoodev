@@ -5,38 +5,20 @@ Introduktion
 Ett utbildningsmaterial för Odoo 12. 
 
 
-
-=========================
-Moduler / Arv
-=========================
-.. toctree::
-   :maxdepth: 1
-
-   classic_inherit.rst
-   extentions.rst
-   delegering.rst
-
-=========================
-Sökrutan
-=========================
 .. toctree::
    :maxdepth: 2
 
-   search/index.rst
+   modules/index.rst1
 
+.. toctree::
+   :maxdepth: 2
 
+   search/index.rst1
 
-=========================
-Vyer
-=========================
 .. toctree::
    :maxdepth: 2
 
    views/index.rst
-   views/calendar.rst
-   views/form.rst
-   views/graph.rst
-
 
 =========================
 Chatter
