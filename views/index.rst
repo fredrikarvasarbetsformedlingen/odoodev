@@ -94,20 +94,32 @@ Första field name är standardsökningen::
                     <separator/>
 
 
-=========================
-Söktyper
-=========================
 .. toctree::
    :maxdepth: 1
 
-   freetext.rst
+   kanban.rst
 
 .. toctree::
    :maxdepth: 1
 
-   filter.rst
+   treeview.rst
 
 .. toctree::
    :maxdepth: 1
    
-   group_by.rst
+   calendar.rst
+
+.. toctree::
+   :maxdepth: 1
+   
+   pivot.rst
+
+.. toctree::
+   :maxdepth: 1
+   
+   graph.rst
+
+.. toctree::
+   :maxdepth: 1
+   
+   activity.rst
