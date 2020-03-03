@@ -7,6 +7,10 @@ I Kanban fokusera man på att avsluta uppgifter inte inleda dem. Kanban kännete
 
 .. image:: Markering_833.png
 
+Kraftfullt verkgyg som visar progress eller kan användas för att fördela uppgifter
+
+.. image:: Markering_847.png
+
 Kanban-strukturen::
     <kanban>
            Lista ingående fält         
