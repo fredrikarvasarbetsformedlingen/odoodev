@@ -155,27 +155,24 @@ widget="phone"/>
 Progress bar
 ============
 
+.. image:: Markering_838.png
 
- .. image:: Markering_838.png
+Kod för progressbar::
 
-
-    <field name="stage_id" widget="statusbar" 
-         options="{'clickable': '1', 'fold_field': 'fold'}" 
-         domain="['|', ('team_id', '=', team_id), ('team_id', '=', False)]" attrs="{'invisible': [('active', '=', False)]}"  
-   />
+<field name="stage_id" widget="statusbar" 
+options="{'clickable': '1', 'fold_field': 'fold'}"
+domain="['|', ('team_id', '=', team_id), ('team_id', '=', False)]" 
+attrs="{'invisible': [('active', '=', False)]}" />
    
    
 Knappar
+=======
 
-
- .. image:: Markering_837.png
+.. image:: Markering_837.png
  
  
- Kod för funktionsknapp:
+Kod för funktionsknapp::
  
-      <button name="action_set_won_rainbowman" string="Mark Won" type="object" 
-           class="oe_highlight" 
-           attrs="{'invisible': ['|', ('active','=',False), ('probability', '=', 100)]}"/>
-
-
-
+<button name="action_set_won_rainbowman" string="Mark Won" type="object"
+class="oe_highlight" 
+attrs="{'invisible': ['|', ('active','=',False), ('probability', '=', 100)]}" />
