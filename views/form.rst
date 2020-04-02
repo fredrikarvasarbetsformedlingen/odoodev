@@ -143,9 +143,8 @@ kod för formuläret::
 Progress bar
 ============
 
-
 .. image:: Markering_838.png
-            
+
     <field name="stage_id" widget="statusbar" 
          options="{'clickable': '1', 'fold_field': 'fold'}" 
          domain="['|', ('team_id', '=', team_id), ('team_id', '=', False)]" attrs="{'invisible': [('active', '=', False)]}"  
