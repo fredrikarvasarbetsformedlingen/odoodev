@@ -19,14 +19,12 @@ Formulärwidgets för ``many2many`` -fält i Odoo
 Widgeten ``many2many`` använder en förvald listvy för relaterad modell för att visa en lista av relaterade objekt.
 
 
-Alternativ
-====
+**Alternativ**
 
 * ``no_create`` - tar bort "Create" knappen.
 
 
-Exempel
-====
+**Exempel**
 
 .. code-block:: python
 
@@ -40,8 +38,7 @@ En Facebookliknande flervalsmarkering.
 
 .. image:: many2many_tags_widget.png
 
-Alternativ
-====
+**Alternativ**
 
 * ``no_quick_create`` - tar bort ``Create and edit...`` alternativet.
 * ``no_quick_edit`` - tar bort ``Skapa "foo"`` alternativet.
