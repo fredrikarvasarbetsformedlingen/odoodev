@@ -71,9 +71,7 @@ Widgeten ``many2many_checkboxes``
 .. image:: many2many_checkboxes_widget.png
 
 
-Enligt en notering i dokumentationen till Odoo:
-
-Paragraph::
+Enligt en notering i dokumentationen till Odoo::
 
     This type of field display a list of checkboxes. It works only with m2ms. This field 
     will display one checkbox for each record existing in the model targeted by the 
