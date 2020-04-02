@@ -2,12 +2,9 @@
 Widgets
 ============
 
-* Widgets gör en sak
-* Widgets gör en sak
-* Widgets gör en sak
-* Widgets gör en sak
 
+.. image:: domain.png
 
-.. image:: Markering_843.png
+.. image:: kontakter.png
 
 http://ludwiktrammer.github.io/odoo/form-widgets-many2many-fields-options-odoo.html
