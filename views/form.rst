@@ -10,7 +10,7 @@ Formulär
 
 
 
-kod för sökrutan::
+kod för formuläret::
 
 <?xml version="1.0"?>
 <form string="Opportunities" class="o_opportunity_form">
@@ -142,10 +142,27 @@ kod för sökrutan::
                     </div>
                 </form>
             
+**Progress bar**
 
-
-    
+.. image:: Markering_838.png
             
-
+    <field name="stage_id" widget="statusbar" 
+         options="{'clickable': '1', 'fold_field': 'fold'}" 
+         domain="['|', ('team_id', '=', team_id), ('team_id', '=', False)]" attrs="{'invisible': [('active', '=', False)]}"  
+   />
+   
+ **Knappar**
+ 
+ .. image:: Markering_837.png
+ 
+ 
+ Kod för funktionsknapp:
+ 
+      <button name="action_set_won_rainbowman" string="Mark Won" type="object" 
+           class="oe_highlight" 
+           attrs="{'invisible': ['|', ('active','=',False), ('probability', '=', 100)]}"/>
+ 
+ 
+   
 
 
