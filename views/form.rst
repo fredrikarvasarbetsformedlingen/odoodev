@@ -172,7 +172,8 @@ Knappar
  
  
 Kod för funktionsknapp::
- 
+
+
 <button name="action_set_won_rainbowman" string="Mark Won" type="object"
-class="oe_highlight" 
-attrs="{'invisible': ['|', ('active','=',False), ('probability', '=', 100)]}" />
+class="oe_highlight" attrs="{'invisible': ['|', ('active','=',False), ('probability', '=', 100)]
+}" />
