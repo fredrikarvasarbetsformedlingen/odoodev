@@ -52,12 +52,42 @@ Alternativ
 * ``no_create`` - ``no_qick_create`` och ``no_create_edit`` kombinerat.
 
 
+Exempel
+====
+
+.. code-block:: python
+
+<field name="field_name"
+    widget="many2many_tags"
+    options="{'no_create_edit': True}"/>
+
+
+***
+
+Widgeten ``many2many_checkboxes``
+****
+
+.. image:: many2many_checkboxes_widget.png
+
+
+Enligt en notering i dokumentationen till Odoo:
+
+:fieldname: Field content
+
+text text text text text text text text 
+text text text text text text text 
+text text text text text text text text text text text 
+text 
+text 
+text text text text text text text text text text text text 
+
+
+
 .. image:: many2many_widget.png
 
 
 
 
-.. image:: many2many_checkboxes_widget.png
 
 
 
