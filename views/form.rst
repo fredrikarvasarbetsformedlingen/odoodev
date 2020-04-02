@@ -53,7 +53,8 @@ kod för formuläret::
 </div>
 <group>
 <group>
-<field name="partner_id" widget="res_partner_many2one" string="Customer" domain="[('customer', '=', True)]" context="{'search_default_customer': 1,
+<field name="partner_id" widget="res_partner_many2one" string="Customer" domain="[('customer', '=', True)]" context="
+{'search_default_customer': 1,
 'default_name': partner_name, 
 'default_street': street,
 'default_street2': street2, 
@@ -74,7 +75,9 @@ kod för formuläret::
 <field name="partner_is_blacklisted" invisible="1"/>
 <label for="email_from" class="oe_inline"/>
 <div class="o_row o_row_readonly">
-<i class="fa fa-ban" style="color: red;" role="img" title="This email is blacklisted for mass mailing" aria-label="Blacklisted" attrs="{'invisible': ['|', ('is_blacklisted', '=', False), ('partner_address_email', '!=', False)]}" groups="base.group_user"/>
+<i class="fa fa-ban" style="color: red;" role="img" title="This email is blacklisted for mass mailing" aria-
+label="Blacklisted" attrs="{'invisible': ['|', ('is_blacklisted', '=', False), ('partner_address_email', '!=', False)]}" 
+groups="base.group_user"/>
 <field name="email_from" attrs="{'invisible': [('partner_address_email', '!=', False)]}" string="Email" widget="email"/>
 <i class="fa fa-ban" style="color: red;" role="img" title="This email is blacklisted for mass mailing" aria-
 label="Blacklisted" attrs="{'invisible': ['|', ('partner_is_blacklisted', '=', False), ('partner_address_email', '=', 
