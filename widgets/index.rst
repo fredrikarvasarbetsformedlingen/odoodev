@@ -80,20 +80,48 @@ Enligt en notering i dokumentationen till Odoo::
 
 
 Det finns ingen möjlighet för denna widgt att skapa nya poster, exempelvis produkter.
-****
 
 .. image:: many2many_widget.png
 
 
+Exempel
+****
+
+.. code-block:: python
+
+    <field name="field_name" widget="many2many_checkboxes"/>
+    
 
 
+``many2many_kanban`` widgeten
+****
 
+Widgeten ``many2many_kanban`` använder Kanbanvyn för att visa en lista av relaterade objekt.
+
+Denna widget kan varieras på många sätt beroende på vilken Kanbanvy som används. Här är en skärmbild från ``project`` modulen:
 
 
 .. image:: many2many_kanban_widget.png
 
 
-Widgeten ``many2many_counter``
+**Exempel**
+
+.. code-block:: python
+
+    <field name="field_name" widget="many2many_kanban">
+        <kanban>
+            <field name="name"/>
+            <templates>
+                <t t-name="kanban-box">
+                    <field name="name"/>
+                </t>
+            </templates>
+        </kanban>
+    </field>
+
+
+
+``many2many_counter`` widgeten
 ****
 
 En enkel läs-endast widget som visar en länk med information om antalet relaterade objekt. Länkens målvy kan bli konfigurerad via ``views`` alternativet.
