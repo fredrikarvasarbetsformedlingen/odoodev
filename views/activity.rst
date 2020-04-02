@@ -68,8 +68,9 @@ kod för sökrutan
                 </search>
 
 
-
 .. image:: Markering_824.png
+
+
 
 Första field name är standardsökningen.
 
@@ -86,19 +87,19 @@ Första field name är standardsökningen.
 
 .. code-block:: python
 
-                    <field name="tag_ids" string="Tag" filter_domain="[('tag_ids', 'ilike', self)]"/>
-                    <field name="stage_id" domain="[]"/>
-                    <field name="user_id"/>
-                    <field name="team_id"/>
-                    <field name="partner_id" operator="child_of" string="Customer"/>
-                    <field name="city"/>
-                    <field name="country_id"/>
-                    <field name="activity_type_id"/>
-                    <field name="activity_summary"/>
-                    <field name="probability"/>
-                    <field name="lost_reason"/>
-                    <field name="date_conversion"/>
-                    <separator/>
+    <field name="tag_ids" string="Tag" filter_domain="[('tag_ids', 'ilike', self)]"/>
+    <field name="stage_id" domain="[]"/>
+    <field name="user_id"/>
+    <field name="team_id"/>
+    <field name="partner_id" operator="child_of" string="Customer"/>
+    <field name="city"/>
+    <field name="country_id"/>
+    <field name="activity_type_id"/>
+    <field name="activity_summary"/>
+    <field name="probability"/>
+    <field name="lost_reason"/>
+    <field name="date_conversion"/>
+    <separator/>
 
 
 
