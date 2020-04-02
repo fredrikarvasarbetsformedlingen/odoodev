@@ -92,7 +92,28 @@ Det finns ingen möjlighet för denna widgt att skapa nya poster, exempelvis pro
 
 .. image:: many2many_kanban_widget.png
 
+
+Widgeten ``many2many_counter``
+****
+
+En enkel läs-endast widget som visar en länk med information om antalet relaterade objekt. Länkens målvy kan bli konfigurerad via ``views`` alternativet.
+
+Är även användbar med ``one2many`` fält.
+
+
 .. image:: x2many_counter_widget.png
+
+Alternativ
+****
+
+* ``views`` Enligt en kommentar i dokumentationen till Odoos källkod::
+
+The views to display in the act_window action. Must be a list of tuple whose first element is the id of the view to display (or False to take the default one) and the second element is the type of the view. Defaults to [[false, "tree"], [false, "form"]].
+
+
+
+
+
 
 
 Widgeten ``many2many_binary``
