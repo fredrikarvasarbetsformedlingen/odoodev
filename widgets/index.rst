@@ -28,7 +28,7 @@ Alternativ
 Exempel
 ====
 
-.. code:: python
+.. code-block:: python
 
 <field name="field_name" options="{'no_create': True}"/>
 
