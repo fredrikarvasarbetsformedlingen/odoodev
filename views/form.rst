@@ -53,8 +53,7 @@ kod för formuläret::
 </div>
 <group>
 <group>
-<field name="partner_id" widget="res_partner_many2one" string="Customer" domain="[('customer', '=', True)]" context="{'search_default_customer': 1,
-'default_name': partner_name, 
+<field name="partner_id" widget="res_partner_many2one" string="Customer" domain="[('customer', '=', True)]" context="{'search_default_customer': 1,'default_name': partner_name, 
 'default_street': street,
 'default_street2': street2, 
 'default_city': city,
