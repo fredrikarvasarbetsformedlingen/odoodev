@@ -78,7 +78,8 @@ Första field name är standardsökningen::
             ('name', 'ilike', self)]"/>
             
             
-Övriga field name är::            
+Övriga field name är::
+
                     <field name="tag_ids" string="Tag" filter_domain="[('tag_ids', 'ilike', self)]"/>
                     <field name="stage_id" domain="[]"/>
                     <field name="user_id"/>
