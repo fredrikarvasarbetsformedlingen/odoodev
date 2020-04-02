@@ -108,7 +108,7 @@ Alternativ
 
 * ``views`` Enligt en kommentar i dokumentationen till Odoos källkod::
 
-The views to display in the act_window action. Must be a list of tuple whose first element is the id of the view to display (or False to take the default one) and the second element is the type of the view. Defaults to [[false, "tree"], [false, "form"]].
+    The views to display in the act_window action. Must be a list of tuple whose first element is the id of the view to display (or False to take the default one) and the second element is the type of the view. Defaults to [[false, "tree"], [false, "form"]].
 
 
 
