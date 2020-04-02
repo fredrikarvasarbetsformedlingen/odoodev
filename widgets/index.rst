@@ -30,7 +30,7 @@ Exempel
 
 .. code-block:: python
 
-<field name="field_name" options="{'no_create': True}"/>
+    <field name="field_name" options="{'no_create': True}"/>
 
 
 Widgeten ``many2many_tags``
