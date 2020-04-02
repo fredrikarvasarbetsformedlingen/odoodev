@@ -9,38 +9,28 @@ Trädvy (lista)
 .. image:: Markering_701.png
 
 
+1) Drill down, gruppering i flera led
+2) Kryssa objekt
+3) Metoder som gör något med kryssade objekt
+
 
 kod för trädvyn::
 
-    
 
-.. image:: Markering_834.png
-
-Första field name är standardsökningen::
-
-    <field name="name" string="Opportunity" 
-       filter_domain="['|','|','|',
-            ('partner_id','ilike',self),
-            ('partner_name','ilike',self),('email_from','ilike',self),
-            ('name', 'ilike', self)]"/>
-            
-            
-Övriga field name är::
-
-                    <field name="tag_ids" string="Tag" filter_domain="[('tag_ids', 'ilike', self)]"/>
-                    <field name="stage_id" domain="[]"/>
-                    <field name="user_id"/>
-                    <field name="team_id"/>
-                    <field name="partner_id" operator="child_of" string="Customer"/>
-                    <field name="city"/>
-                    <field name="country_id"/>
-                    <field name="activity_type_id"/>
-                    <field name="activity_summary"/>
-                    <field name="probability"/>
-                    <field name="lost_reason"/>
-                    <field name="date_conversion"/>
-                    <separator/>
-
+   <tree string="Contacts">
+                    <field name="display_name" string="Name"/>
+                    <field name="function" invisible="1"/>
+                    <field name="phone"/>
+                    <field name="email"/>
+                    <field name="user_id" invisible="1"/>
+                    <field name="is_company" invisible="1"/>
+                    <field name="country_id" invisible="1"/>
+                    <field name="parent_id" invisible="1"/>
+                    <field name="active" invisible="1"/>
+                </tree>
+                
+                
+   
 
 =========================
 Söktyper
