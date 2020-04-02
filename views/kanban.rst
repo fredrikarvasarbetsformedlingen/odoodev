@@ -12,6 +12,7 @@ Kraftfullt verkgyg som visar progress eller kan användas för att fördela uppg
 .. image:: Markering_847.png
 
 Kanban-strukturen::
+
     <kanban>
            Lista ingående fält         
            <field name="priority"/>
@@ -27,6 +28,7 @@ Kanban-strukturen::
 
 
 1) Kanban-record::
+
      <kanban 
          default_group_by="stage_id" 
                      class="o_kanban_small_column o_opportunity_kanban" 
@@ -42,6 +44,7 @@ Kanban-strukturen::
          help="This bar allows to filter the opportunities based on scheduled activities."/>
  
 3) Lappen::
+
      <templates>
             <t t-name="kanban-box">
                 <div t-attf-class="#{kanban_color(record.color.raw_value)} oe_kanban_global_click">
