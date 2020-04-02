@@ -10,7 +10,9 @@ Aktiviteter
 
 
 
-kod för sökrutan::
+kod för sökrutan
+
+.. code-block:: python
 
     <search string="Search Opportunities">
                     <field name="name" string="Opportunity" filter_domain="['|','|','|',('partner_id','ilike',self),('partner_name','ilike',self),('email_from','ilike',self),('name', 'ilike', self)]"/>
@@ -69,7 +71,9 @@ kod för sökrutan::
 
 .. image:: Markering_824.png
 
-Första field name är standardsökningen::
+Första field name är standardsökningen.
+
+.. code-block:: python
 
     <field name="name" string="Opportunity" 
        filter_domain="['|','|','|',
@@ -78,7 +82,9 @@ Första field name är standardsökningen::
             ('name', 'ilike', self)]"/>
             
             
-Övriga field name är:: 
+Övriga field name:
+
+.. code-block:: python
 
                     <field name="tag_ids" string="Tag" filter_domain="[('tag_ids', 'ilike', self)]"/>
                     <field name="stage_id" domain="[]"/>
