@@ -2,9 +2,6 @@
 Formulär
 ============
 
-* Etiketter för gjorda val (filter/gruppering/favorit)
-* Använd förstoringsglaset för att se extra funktioner
-
 
 .. image:: Markering_835.png
 
@@ -142,7 +139,10 @@ kod för formuläret::
                     </div>
                 </form>
             
-**Progress bar**
+============
+Progress bar
+============
+
 
 .. image:: Markering_838.png
             
@@ -151,8 +151,10 @@ kod för formuläret::
          domain="['|', ('team_id', '=', team_id), ('team_id', '=', False)]" attrs="{'invisible': [('active', '=', False)]}"  
    />
    
- **Knappar**
- 
+   
+**Knappar**
+
+
  .. image:: Markering_837.png
  
  
@@ -161,8 +163,6 @@ kod för formuläret::
       <button name="action_set_won_rainbowman" string="Mark Won" type="object" 
            class="oe_highlight" 
            attrs="{'invisible': ['|', ('active','=',False), ('probability', '=', 100)]}"/>
- 
- 
-   
+
 
 
