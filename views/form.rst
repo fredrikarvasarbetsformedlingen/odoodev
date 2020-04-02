@@ -164,7 +164,7 @@ options="{'clickable': '1', 'fold_field': 'fold'}"
 domain="['|', ('team_id', '=', team_id), ('team_id', '=', False)]" 
 attrs="{'invisible': [('active', '=', False)]}" />
    
-   
+
 Knappar
 =======
 
@@ -177,3 +177,14 @@ Kod för funktionsknapp::
 <button name="action_set_won_rainbowman" string="Mark Won" type="object"
 class="oe_highlight" attrs="{'invisible': ['|', ('active','=',False), ('probability', '=', 100)]
 }" />
+
+
+Dölja formulärelement
+=====================
+
+.. image:: kontakter.png
+
+
+Kod för group::
+
+group="admin"
