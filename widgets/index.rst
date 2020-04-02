@@ -105,7 +105,7 @@ Enligt en notering i dokumentationen till Odoo:
 ..  
     Widget for (many2many field) to upload one or more file in same time and 
     display in list. The user can delete his files.
-
+    ..
 
 .. image:: many2many_binary_widget.png
 
