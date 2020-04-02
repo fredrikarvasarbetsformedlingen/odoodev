@@ -67,6 +67,7 @@ Widgets
 .. toctree::
    :maxdepth: 1
 
+   views/formulärwidgets.rst
    widgets.rst
    many2many_tags.rst
 
