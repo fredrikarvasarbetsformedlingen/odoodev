@@ -9,7 +9,7 @@ Formulär
 
 kod för formuläret::
 
-<?xml version="1.0"?>
+
 <form string="Opportunities" class="o_opportunity_form">
 <header>
 <button name="action_set_won_rainbowman" string="Mark Won" type="object" class="oe_highlight" attrs="{'invisible': ['|', ('active','=',False), ('probability', '=', 100)]}"/>
@@ -54,13 +54,14 @@ kod för formuläret::
 <group>
 <group>
 <field name="partner_id" widget="res_partner_many2one" string="Customer" 
- domain="[('customer', '=', True)]" context="{'search_default_customer': 1,
- 'default_name': partner_name, 'default_street': street,'default_street2': street2, 
- 'default_city': city,'default_state_id': state_id, 'default_zip': zip, 
- 'default_country_id': country_id,'default_function': function, 
- 'default_phone': phone, 'default_mobile': mobile, 
- 'default_email': email_from,'default_user_id': user_id,
- 'default_team_id': team_id, 'default_website': website,'show_vat': True,}"/>
+domain="[('customer', '=', True)]" context="{'search_default_customer': 1,
+'default_name': partner_name, 'default_street': street,'default_street2': street2, 
+'default_city': city,'default_state_id': state_id, 'default_zip': zip, 
+'default_country_id': country_id,'default_function': function, 
+'default_phone': phone, 'default_mobile': mobile, 
+'default_email': email_from,
+'default_user_id': user_id,
+'default_team_id': team_id, 'default_website': website,'show_vat': True,}"/>
 <field name="is_blacklisted" invisible="1"/>
 <field name="partner_is_blacklisted" invisible="1"/>
 <label for="email_from" class="oe_inline"/>
@@ -148,7 +149,7 @@ widget="phone"/>
 <field name="message_ids" widget="mail_thread" options="{'post_refresh': 'recipients'}"/>
 </div>
 </form>
-            
+           
 
 
 Progress bar
