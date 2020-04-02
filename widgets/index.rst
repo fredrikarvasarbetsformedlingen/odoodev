@@ -6,6 +6,16 @@ Formulärwidgets för "many2many" -fält i Odoo
 ====
 
 1. 'many2many' widget (förvalt)
+2. 'many2many_tags' widget
+3. 'many2many_checkboxes' widget
+4. 'many2many_kanban' widget
+5. 'many2many_counter' widget
+6. 'many2many_binary' widget
+
+
+'many2many' widget (förvalt)
+====
+
 
 
 
