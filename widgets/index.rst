@@ -28,17 +28,38 @@ Alternativ
 Exempel
 ====
 
+.. code:: python
+
+<field name="field_name" options="{'no_create': True}"/>
+
+
+Widgeten ``many2many_tags``
+****
+
+Ett Facebookliknande flervalsmarkering.
+
+.. image:: many2many_tags_widget.png
+
+Alternativ
+====
+
+* ``no_quick_create`` - tar bort ``Create and edit...`` alternativet.
+* ``no_quick_edit`` - tar bort ``Skapa "foo"`` alternativet.
+
+.. image:: many2many_tags_widget2.png
+
+
+* ``no_create`` - ``no_qick_create`` och ``no_create_edit`` kombinerat.
+
 
 .. image:: many2many_widget.png
 
-.. image:: many2many_tags_widget.png
 
 
 
 .. image:: many2many_checkboxes_widget.png
 
 
-.. image:: many2many_tags_widget2.png
 
 .. image:: many2many_kanban_widget.png
 
