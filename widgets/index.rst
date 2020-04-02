@@ -95,4 +95,26 @@ Det finns ingen möjlighet far denna widgt att skapa nya poster, exempelvis prod
 
 .. image:: x2many_counter_widget.png
 
+
+Widgeten ``many2many_binary``
+****
+
+Enligt en notering i dokumentationen till Odoo:
+
+
+..  
+    Widget for (many2many field) to upload one or more file in same time and 
+    display in list. The user can delete his files.
+
+
 .. image:: many2many_binary_widget.png
+
+Exempel
+====
+
+.. code-block:: python
+
+    <field name="field_name" widget="many2many_binary" string="Attach a file"/>
+    
+    
+    
