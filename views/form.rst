@@ -139,11 +139,14 @@ kod för formuläret::
                     </div>
                 </form>
             
-============
+
+
 Progress bar
 ============
 
-.. image:: Markering_838.png
+
+ .. image:: Markering_838.png
+
 
     <field name="stage_id" widget="statusbar" 
          options="{'clickable': '1', 'fold_field': 'fold'}" 
@@ -151,7 +154,7 @@ Progress bar
    />
    
    
-**Knappar**
+Knappar
 
 
  .. image:: Markering_837.png
