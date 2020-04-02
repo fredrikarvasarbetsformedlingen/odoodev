@@ -16,7 +16,17 @@ Formulärwidgets för "many2many" -fält i Odoo
 ``many2many`` widget (förvalt)
 ====
 
-Widgeten 
+Widgeten ``many2many`` använder en förvald listvy för relaterad modell för att visa en lista av relaterade objekt.
+
+
+Alternativ
+====
+
+* ``no_create`` - tar bort "Create" knappen.
+
+
+Exempel
+====
 
 
 .. image:: many2many_widget.png
