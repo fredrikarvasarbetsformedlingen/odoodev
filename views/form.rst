@@ -11,7 +11,7 @@ kod för formuläret::
 
 <?xml version="1.0"?>
 <form string="Opportunities" class="o_opportunity_form">
-                    <header>
+<header>
                         <button name="action_set_won_rainbowman" string="Mark Won" type="object" class="oe_highlight" attrs="{'invisible': ['|', ('active','=',False), ('probability', '=', 100)]}"/>
                         <button name="136" string="Mark Lost" type="action" class="oe_highlight" context="{'default_lead_id': active_id}" attrs="{'invisible': [('active', '=', False),('probability', '&lt;', 100)]}"/>
                         <button name="toggle_active" string="Restore" type="object" attrs="{'invisible': ['|', ('probability', '&gt;', 0), ('active', '=', True)]}"/>
