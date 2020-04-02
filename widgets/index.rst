@@ -73,14 +73,15 @@ Widgeten ``many2many_checkboxes``
 
 Enligt en notering i dokumentationen till Odoo:
 
-..  
+Paragraph::
+
     This type of field display a list of checkboxes. It works only with m2ms. This field 
     will display one checkbox for each record existing in the model targeted by the 
     relation, according to the given domain if one is specified. Checked records will 
     be added to the relation.
 
 
-Det finns ingen möjlighet far denna widgt att skapa nya poster, exempelvis produkter.
+Det finns ingen möjlighet för denna widgt att skapa nya poster, exempelvis produkter.
 ****
 
 .. image:: many2many_widget.png
