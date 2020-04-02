@@ -6,7 +6,7 @@ Trädvy (lista)
 * Använd förstoringsglaset för att se extra funktioner
 
 
-.. image:: Markering_843.png
+.. image:: Markering_700.png
 
 
 
