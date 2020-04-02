@@ -57,12 +57,13 @@ Exempel
 
 .. code-block:: python
 
-<field name="field_name"
+    <field name="field_name"
     widget="many2many_tags"
     options="{'no_create_edit': True}"/>
 
 
-***
+****
+
 
 Widgeten ``many2many_checkboxes``
 ****
