@@ -17,32 +17,31 @@ kod för formuläret::
 <button name="toggle_active" string="Restore" type="object" attrs="{'invisible': ['|', ('probability', '&gt;', 0), ('active', '=', True)]}"/>
 <field name="stage_id" widget="statusbar" options="{'clickable': '1', 'fold_field': 'fold'}" domain="['|', ('team_id', '=', team_id), ('team_id', '=', False)]" attrs="{'invisible': [('active', '=', False)]}"/>
 </header>
-
 <sheet>
-                        <field name="active" invisible="1"/>
-                        <div class="oe_button_box" name="button_box">
-                            <button class="oe_stat_button" type="object" context="{'partner_id': partner_id}" name="action_schedule_meeting" icon="fa-calendar">
-                                <div class="o_stat_info">
-                                    <field name="meeting_count" class="o_stat_value"/>
-                                    <span class="o_stat_text" attrs="{'invisible': [('meeting_count', '&lt;', 2)]}"> Meetings</span>
-                                    <span class="o_stat_text" attrs="{'invisible': [('meeting_count', '&gt;', 1)]}"> Meeting</span>
-                                </div>
-                            </button>
-                        </div>
-                        <div class="badge-pill badge-danger float-right" attrs="{'invisible': ['|', ('probability', '&gt;', 0), ('active', '=', True)]}">Lost</div>
-                        <div class="badge-pill badge-success float-right" attrs="{'invisible': [('probability', '&lt;', 100)]}">Won</div>
-                        <div class="oe_title">
-                            <label for="name" class="oe_edit_only"/>
-                            <h1><field name="name" placeholder="e.g. Product Pricing"/></h1>
-                            <h2 class="o_row row no-gutters d-flex">
-                                <div class="col">
-                                    <label for="planned_revenue" class="oe_edit_only"/>
-                                    <div class="o_row">
-                                        <field name="company_currency" invisible="1"/>
-                                        <field name="planned_revenue" class="oe_inline" widget="monetary" options="{'currency_field': 'company_currency'}"/>
-                                        <span class="oe_grey"> at </span>
-                                    </div>
-                                </div>
+<field name="active" invisible="1"/>
+<div class="oe_button_box" name="button_box">
+<button class="oe_stat_button" type="object" context="{'partner_id': partner_id}" name="action_schedule_meeting" icon="fa-calendar">
+<div class="o_stat_info">
+<field name="meeting_count" class="o_stat_value"/>
+<span class="o_stat_text" attrs="{'invisible': [('meeting_count', '&lt;', 2)]}"> Meetings</span>
+<span class="o_stat_text" attrs="{'invisible': [('meeting_count', '&gt;', 1)]}"> Meeting</span>
+</div>
+</button>
+</div>
+<div class="badge-pill badge-danger float-right" attrs="{'invisible': ['|', ('probability', '&gt;', 0), ('active', '=', True)]}">Lost</div>
+<div class="badge-pill badge-success float-right" attrs="{'invisible': [('probability', '&lt;', 100)]}">Won</div>
+<div class="oe_title">
+<label for="name" class="oe_edit_only"/>
+<h1><field name="name" placeholder="e.g. Product Pricing"/></h1>
+<h2 class="o_row row no-gutters d-flex">
+<div class="col">
+<label for="planned_revenue" class="oe_edit_only"/>
+<div class="o_row">
+<field name="company_currency" invisible="1"/>
+<field name="planned_revenue" class="oe_inline" widget="monetary" options="{'currency_field': 'company_currency'}"/>
+<span class="oe_grey"> at </span>
+</div>
+</div>
                                 <div class="col">
                                     <label for="probability" class="oe_edit_only"/>
                                     <div class="o_row d-flex">
