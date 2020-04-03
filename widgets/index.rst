@@ -48,8 +48,7 @@ En Facebookliknande flervalsmarkering.
 * ``no_create`` - ``no_qick_create`` och ``no_create_edit`` kombinerat.
 
 
-Exempel
-====
+**Exempel**
 
 .. code-block:: python
 
