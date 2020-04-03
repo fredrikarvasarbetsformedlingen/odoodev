@@ -1,5 +1,5 @@
 =======
-Kanban widgets
+Kanban Widgets
 =======
 
 .. image:: markering_866.png
