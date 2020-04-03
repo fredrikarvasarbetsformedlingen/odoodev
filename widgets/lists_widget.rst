@@ -1,5 +1,5 @@
 =======
-Lists widget
+Lists Widget
 =======
 
 progressbar
