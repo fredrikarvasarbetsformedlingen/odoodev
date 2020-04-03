@@ -18,6 +18,8 @@ Formulärwidgets för ``many2many`` -fält i Odoo
 
 Widgeten ``many2many`` använder en förvald listvy för relaterad modell för att visa en lista av relaterade objekt.
 
+.. image:: many2many_widget.png
+
 
 **Alternativ**
 
