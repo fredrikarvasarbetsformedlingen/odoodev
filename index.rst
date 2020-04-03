@@ -70,6 +70,7 @@ Widgets
 
    widgets/form_widget.rst
    widgets/kanban_widget.rst
+   widgets/list_widget.rst
   
 
 =========================
