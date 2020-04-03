@@ -44,10 +44,7 @@ En Facebookliknande flervalsmarkering.
 
 * ``no_quick_create`` - tar bort ``Create and edit...`` alternativet.
 * ``no_quick_edit`` - tar bort ``Skapa "foo"`` alternativet.
-
 .. image:: many2many_tags_widget2.png
-
-
 * ``no_create`` - ``no_qick_create`` och ``no_create_edit`` kombinerat.
 
 
