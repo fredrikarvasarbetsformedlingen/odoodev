@@ -63,9 +63,6 @@ En Facebookliknande flervalsmarkering.
 Widgeten ``many2many_checkboxes``
 ****
 
-.. image:: many2many_checkboxes_widget.png
-
-
 Enligt en notering i dokumentationen till Odoo::
 
     This type of field display a list of checkboxes. It works only with m2ms. This field 
@@ -76,11 +73,10 @@ Enligt en notering i dokumentationen till Odoo::
 
 Det finns ingen möjlighet för denna widgt att skapa nya poster, exempelvis produkter.
 
-.. image:: many2many_widget.png
+.. image:: many2many_checkboxes_widget.png
 
 
-Exempel
-****
+**Exempel**
 
 .. code-block:: python
 
@@ -121,13 +117,12 @@ Denna widget kan varieras på många sätt beroende på vilken Kanbanvy som anv�
 
 En enkel läs-endast widget som visar en länk med information om antalet relaterade objekt. Länkens målvy kan bli konfigurerad via ``views`` alternativet.
 
-Är även användbar med ``one2many`` fält.
+Denna är även användbar med ``one2many`` fält.
 
 
 .. image:: x2many_counter_widget.png
 
-Alternativ
-****
+**Alternativ**
 
 * ``views`` Enligt en kommentar i dokumentationen till Odoos källkod::
 
@@ -136,8 +131,12 @@ Alternativ
     and the second element is the type of the view. Defaults to [[false, 
     "tree"], [false, "form"]].
 
+.. code-block:: python
 
-Widgeten ``many2many_binary``
+    <field name="field_name" widget="x2many_counter" string="things"/>
+
+
+``many2many_binary`` widgeten
 ****
 
 Enligt en notering i dokumentationen till Odoo::
@@ -148,8 +147,7 @@ Enligt en notering i dokumentationen till Odoo::
 
 .. image:: many2many_binary_widget.png
 
-Exempel
-====
+**Exempel**
 
 .. code-block:: python
 
