@@ -2,4 +2,4 @@
 Kanban widgets
 =======
 
-. image:: many2many_widget.png
+.. image:: many2many_widget.png
