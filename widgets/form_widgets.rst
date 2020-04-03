@@ -1,5 +1,5 @@
 =======
-Formulärwidgets
+Form Widgets
 =======
 
 Formulärwidgets för ``many2many`` -fält i Odoo
