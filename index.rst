@@ -69,6 +69,7 @@ Widgets
    :maxdepth: 1
 
    widgets/index.rst
+   widgets/kanban_widget.rst
   
 
 =========================
