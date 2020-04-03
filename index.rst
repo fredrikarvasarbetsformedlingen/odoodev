@@ -68,8 +68,8 @@ Widgets
 .. toctree::
    :maxdepth: 1
 
-   widgets/form_widget.rst
-   widgets/kanban_widget.rst
+   widgets/form_widgets.rst
+   widgets/kanban_widgets.rst
    widgets/list_widgets.rst
   
 
