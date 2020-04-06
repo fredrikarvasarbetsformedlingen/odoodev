@@ -2,10 +2,14 @@
 Field Widgets
 =======
 
-Each field type is displayed in the form with the appropriate default widget. But additional alternative widgets are available to be used.<br>
+Each field type is displayed in the form with the appropriate default widget. But additional alternative widgets are available to be used.
+
 For text fields, we have the following widgets:
-email is used to make the email text an actionable "mail-to" address. url is used to format the text as a clickable URL.
-html is used to render the text as HTML content; in edit mode, it features a WYSIWYG editor to allow for the formatting of the content without the need for using the HTML syntax.
+
+  • **email** is used to make the email text an actionable "mail-to" address. 
+  • **url** is used to format the text as a clickable URL.
+  • **html** is used to render the text as HTML content; in edit mode, it features a WYSIWYG editor to allow for the 
+    formatting of the content without the need for using the HTML syntax.
 
 For numeric fields, we have the following widgets:
 handle is specifically designed for sequence fields in list views and displays a handle that allows you to drag lines to a custom order.
