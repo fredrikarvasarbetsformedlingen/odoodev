@@ -71,6 +71,7 @@ Widgets
    widgets/form_widgets.rst
    widgets/kanban_widgets.rst
    widgets/list_widgets.rst
+   widgets/pivot_widgets.rst
   
 
 =========================
