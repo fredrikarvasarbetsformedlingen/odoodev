@@ -11,8 +11,10 @@ date, datetime, float_time, and monetary.
 
 .. code-block:: python
 
+<
 <pivot string="Timesheet">
   <field name="employee_id" type="row"/>
   <field name="date" interval="month" type="col"/>
   <field name="unit_amount" type="measure" widget="float_time"/>
 </pivot>
+/>
