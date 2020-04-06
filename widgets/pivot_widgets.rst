@@ -8,8 +8,8 @@ In Pivot view a ``field`` can have a ``widget`` attribute to dictate its format.
 
 .. code-block:: python
 
-<pivot string="Timesheet">
-    <field name="employee_id" type="row"/>
-    <field name="date" interval="month" type="col"/>
-    <field name="unit_amount" type="measure" widget="float_time"/>
-</pivot>/>
+    <pivot string="Timesheet">
+        <field name="employee_id" type="row"/>
+        <field name="date" interval="month" type="col"/>
+        <field name="unit_amount" type="measure" widget="float_time"/>
+    </pivot>/>
