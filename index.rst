@@ -72,6 +72,7 @@ Widgets
    widgets/kanban_widgets.rst
    widgets/list_widgets.rst
    widgets/pivot_widgets.rst
+   widgets/calendar_widgets.rst
   
 
 =========================
