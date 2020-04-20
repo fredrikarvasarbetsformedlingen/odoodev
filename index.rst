@@ -82,3 +82,13 @@ Datakatalog
    :maxdepth: 1
 
    datakatalog.rst
+   
+   
+=========================
+Exportera och Importera data
+=========================
+.. toctree::
+   :maxdepth: 1
+
+   exporter.rst
+   importer.rst
